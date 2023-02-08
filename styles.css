@@ -1,0 +1,145 @@
+html.index {
+    background-color: rgb(237, 211, 172);
+    background: linear-gradient(90deg,rgb(51, 32, 4) 38%, rgb(237, 211, 172) 38.1%);
+   
+
+} 
+
+html.about {
+    background-color: rgb(237, 211, 172);
+    background: linear-gradient(90deg,rgb(237, 211, 172) 38%, rgb(51, 32, 4) 38.1%);
+    overflow-x: hidden;
+    
+
+}
+
+html.more {
+    background-color: rgb(51, 32, 4);
+    background: linear-gradient(90deg,rgb(51, 32, 4) 40%, rgb(237, 211, 172) 40.1%);
+    overflow-x: hidden;
+}
+
+head, body {
+    color:rgb(51, 32, 4);
+
+}
+
+p { 
+    font-size: 40px;
+    font-weight: 700;
+    font-style: inherit;
+    font-family: "Courier New";
+}
+
+#third {
+    color: rgb(237, 211, 172);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: inherit;
+    font-family: "Courier New";
+  
+       
+    
+}
+
+#third:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+#home {
+    color:  rgb(51, 32, 4);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: inherit;
+    font-family: "Courier New";
+}
+
+#home:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#smaller {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: "Courier New";
+}
+
+#right {
+    color: rgb(237, 211, 172);
+    font-size: 30px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: "Courier New";
+}
+
+
+td.home {
+    text-align: center;
+    padding: 25px;
+}
+
+td.about {
+    text-align: center;
+   
+}
+
+.aboutMe {
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(51, 32, 4);
+    
+ 
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.homepage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: rgb(51, 32, 4);;
+    border: none;
+    color: rgb(237, 211, 172);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: inherit;
+    font-family: "Courier New";
+}
